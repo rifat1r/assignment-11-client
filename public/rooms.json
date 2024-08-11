@@ -1,0 +1,400 @@
+[
+    {
+        "roomId": 1,
+        "description": "A cozy double room with modern amenities, perfect for couples. It features a comfortable bed, a spacious bathroom, and a beautiful city view. The room is equipped with free Wi-Fi, a flat-screen TV, and a minibar.",
+        "pricePerNight": 120,
+        "roomSize": "25 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 2,
+        "description": "A luxurious suite offering a king-size bed, a living area, and a private balcony with stunning sea views. Enjoy a lavish stay with high-end amenities, including a jacuzzi, premium toiletries, and a Nespresso machine.",
+        "pricePerNight": 300,
+        "roomSize": "45 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 3,
+        "description": "A spacious twin room ideal for friends or colleagues. The room features two single beds, a work desk, and a large wardrobe. Guests can enjoy free high-speed Wi-Fi, a flat-screen TV, and complimentary breakfast.",
+        "pricePerNight": 150,
+        "roomSize": "30 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 4,
+        "description": "An elegant room with a queen-size bed, perfect for business travelers. The room offers a comfortable stay with a work desk, a mini-bar, and a beautiful city view. Amenities include free Wi-Fi, a flat-screen TV, and room service.",
+        "pricePerNight": 180,
+        "roomSize": "28 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 5,
+        "description": "A family room designed for comfort and convenience. The room features a king-size bed and a sofa bed, accommodating up to four guests. Enjoy modern amenities, including a kitchenette, free Wi-Fi, and a large bathroom.",
+        "pricePerNight": 250,
+        "roomSize": "40 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 6,
+        "description": "A stylish room with a modern design, featuring a comfortable double bed and a sleek bathroom. Ideal for couples or solo travelers. The room includes a flat-screen TV, a minibar, and free Wi-Fi for your convenience.",
+        "pricePerNight": 130,
+        "roomSize": "27 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 7,
+        "description": "A luxurious penthouse suite with panoramic city views. The suite offers a king-size bed, a separate living area, and a private terrace. Enjoy top-notch amenities, including a Jacuzzi, premium linens, and 24-hour room service.",
+        "pricePerNight": 500,
+        "roomSize": "60 sqm",
+        "availability": false,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 8,
+        "description": "A charming single room, perfect for solo travelers. The room features a comfortable bed, a modern bathroom, and a work desk. Enjoy free high-speed Wi-Fi, a flat-screen TV, and complimentary tea and coffee.",
+        "pricePerNight": 100,
+        "roomSize": "20 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 9,
+        "description": "A deluxe double room with a sea view. The room offers a queen-size bed, a spacious balcony, and a modern bathroom. Amenities include free Wi-Fi, a minibar, and a flat-screen TV. Perfect for a relaxing seaside getaway.",
+        "pricePerNight": 220,
+        "roomSize": "35 sqm",
+        "availability": false,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 10,
+        "description": "A contemporary suite featuring a king-size bed, a living area, and a luxurious bathroom with a rain shower. The suite offers breathtaking city views, free Wi-Fi, a flat-screen TV, and complimentary breakfast.",
+        "pricePerNight": 320,
+        "roomSize": "50 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 11,
+        "description": "An executive room designed for business travelers. It features a king-size bed, a work desk, and a comfortable seating area. Enjoy amenities like free Wi-Fi, a flat-screen TV, and 24-hour room service.",
+        "pricePerNight": 200,
+        "roomSize": "32 sqm",
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 12,
+        "description": "A deluxe twin room offering two comfortable beds, a modern bathroom, and a beautiful city view. Perfect for friends or colleagues traveling together. The room includes free Wi-Fi, a minibar, and a flat-screen TV.",
+        "pricePerNight": 180,
+        "roomSize": "30 sqm",
+        "availability": false,
+         "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 13,
+        "description": "A premium suite with a king-size bed, separate living room, and a private balcony. The suite offers luxurious amenities including a Jacuzzi, premium linens, and a stunning view of the skyline.",
+        "pricePerNight": 400,
+        "roomSize": "55 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 14,
+        "description": "A modern single room designed for comfort and efficiency. The room features a cozy bed, a work desk, and a sleek bathroom. Guests can enjoy complimentary Wi-Fi, a flat-screen TV, and a coffee maker.",
+        "pricePerNight": 110,
+        "roomSize": "22 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 15,
+        "description": "A spacious family suite featuring two bedrooms, a living area, and a kitchenette. The suite is ideal for families and offers modern amenities like free Wi-Fi, a flat-screen TV, and complimentary breakfast.",
+        "pricePerNight": 280,
+        "roomSize": "60 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 16,
+        "description": "A charming room with a queen-size bed, perfect for couples or solo travelers. The room features a modern bathroom, free Wi-Fi, and a flat-screen TV. Enjoy a comfortable stay with all the essential amenities.",
+        "pricePerNight": 140,
+        "roomSize": "26 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 17,
+        "description": "A luxurious suite offering a king-size bed, a separate living room, and a private balcony with ocean views. The suite includes a Jacuzzi, premium linens, and 24-hour room service for an unforgettable stay.",
+        "pricePerNight": 350,
+        "roomSize": "48 sqm",
+        "availability": false,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 18,
+        "description": "A cozy double room with modern furnishings, ideal for couples or solo travelers. The room offers free Wi-Fi, a flat-screen TV, and a minibar. Enjoy a comfortable stay in this well-appointed space.",
+        "pricePerNight": 125,
+        "roomSize": "24 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 19,
+        "description": "A contemporary suite with a king-size bed, a private balcony, and a luxurious bathroom with a rain shower. The suite offers breathtaking views, free Wi-Fi, a flat-screen TV, and complimentary breakfast.",
+        "pricePerNight": 330,
+        "roomSize": "52 sqm",
+        "availability": true,
+      "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 20,
+        "description": "A premium twin room with two comfortable beds, a spacious bathroom, and a beautiful city view. The room includes free Wi-Fi, a minibar, and a flat-screen TV. Ideal for friends or colleagues traveling together.",
+        "pricePerNight": 175,
+        "roomSize": "29 sqm",
+        "availability": false,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    }, {
+        "roomId": 21,
+        "description": "A stylish double room with modern decor and amenities. Features include a comfortable bed, a work desk, and a sleek bathroom. Enjoy free Wi-Fi, a flat-screen TV, and a minibar. Perfect for both business and leisure travelers.",
+        "pricePerNight": 135,
+        "roomSize": "27 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 22,
+        "description": "A luxurious penthouse with a king-size bed, separate living area, and a private terrace. Enjoy top-notch amenities including a Jacuzzi, stunning city views, and personalized room service for an unforgettable stay.",
+        "pricePerNight": 550,
+        "roomSize": "70 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 23,
+        "description": "A spacious family room featuring two bedrooms, a living area, and a kitchenette. Ideal for families or groups, with modern amenities including free Wi-Fi, a flat-screen TV, and a large bathroom.",
+        "pricePerNight": 290,
+        "roomSize": "65 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 24,
+        "description": "An elegant single room with a comfortable bed, modern decor, and a spacious bathroom. Features include free Wi-Fi, a flat-screen TV, and a work desk. Perfect for solo travelers seeking comfort and convenience.",
+        "pricePerNight": 115,
+        "roomSize": "21 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 25,
+        "description": "A deluxe suite with a king-size bed, a separate living room, and a private balcony. Enjoy luxurious amenities, including a Jacuzzi, premium linens, and a stunning view of the ocean or cityscape.",
+        "pricePerNight": 380,
+        "roomSize": "55 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 26,
+        "description": "A modern double room featuring a comfortable bed, a sleek bathroom, and a work desk. Enjoy amenities like free Wi-Fi, a flat-screen TV, and a minibar. Ideal for both business and leisure stays.",
+        "pricePerNight": 140,
+        "roomSize": "28 sqm",
+        "availability": true,
+         "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 27,
+        "description": "A luxurious room with a king-size bed, a spacious living area, and a private balcony. The room offers stunning views, a Jacuzzi, and high-end amenities like premium toiletries and 24-hour room service.",
+        "pricePerNight": 410,
+        "roomSize": "60 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 28,
+        "description": "A cozy twin room with two single beds, ideal for friends or family. Features include a modern bathroom, free Wi-Fi, and a flat-screen TV. Enjoy a comfortable and convenient stay with all essential amenities.",
+        "pricePerNight": 155,
+        "roomSize": "30 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 29,
+        "description": "A sophisticated suite with a king-size bed, separate living area, and a private terrace. Enjoy luxurious amenities, including a Jacuzzi, stunning city views, and personalized service.",
+        "pricePerNight": 360,
+        "roomSize": "50 sqm",
+        "availability": true,
+         "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 30,
+        "description": "A chic single room with modern furnishings and amenities. Features a comfortable bed, work desk, and a sleek bathroom. Enjoy free Wi-Fi, a flat-screen TV, and a coffee maker for a pleasant stay.",
+        "pricePerNight": 120,
+        "roomSize": "23 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 31,
+        "description": "A luxurious room with a king-size bed, a spacious living area, and a private balcony. Enjoy top-notch amenities, including a Jacuzzi, premium linens, and stunning views of the city or ocean.",
+        "pricePerNight": 370,
+        "roomSize": "58 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 32,
+        "description": "An elegant double room with a queen-size bed, modern decor, and a spacious bathroom. The room includes free Wi-Fi, a flat-screen TV, and a minibar, offering a comfortable and stylish stay.",
+        "pricePerNight": 150,
+        "roomSize": "26 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 33,
+        "description": "A premium suite with a king-size bed, separate living area, and a private balcony. Enjoy luxurious amenities such as a Jacuzzi, stunning views, and personalized room service.",
+        "pricePerNight": 420,
+        "roomSize": "62 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 34,
+        "description": "A comfortable twin room featuring two single beds, a modern bathroom, and essential amenities. Enjoy free Wi-Fi, a flat-screen TV, and a minibar for a pleasant and convenient stay.",
+        "pricePerNight": 165,
+        "roomSize": "29 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 35,
+        "description": "A cozy single room with modern furnishings, perfect for solo travelers. Features include a comfortable bed, work desk, and a sleek bathroom. Enjoy free Wi-Fi, a flat-screen TV, and a coffee maker.",
+        "pricePerNight": 125,
+        "roomSize": "22 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 36,
+        "description": "A luxurious room with a king-size bed, a private balcony, and a spacious living area. Enjoy high-end amenities, including a Jacuzzi, stunning views, and personalized room service for an unforgettable stay.",
+        "pricePerNight": 390,
+        "roomSize": "57 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 37,
+        "description": "A deluxe suite featuring a king-size bed, a separate living area, and a private balcony. The suite offers luxurious amenities such as a Jacuzzi, stunning views, and premium linens.",
+        "pricePerNight": 420,
+        "roomSize": "60 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 38,
+        "description": "A stylish double room with modern decor, featuring a comfortable bed, work desk, and a sleek bathroom. Enjoy amenities like free Wi-Fi, a flat-screen TV, and a minibar for a pleasant stay.",
+        "pricePerNight": 145,
+        "roomSize": "28 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 39,
+        "description": "A charming twin room with two single beds, ideal for friends or family. The room includes modern furnishings, a sleek bathroom, free Wi-Fi, and a flat-screen TV for a comfortable stay.",
+        "pricePerNight": 160,
+        "roomSize": "30 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 40,
+        "description": "An elegant suite with a king-size bed, a separate living area, and a private balcony. Enjoy luxurious amenities including a Jacuzzi, premium linens, and stunning views of the city or ocean.",
+        "pricePerNight": 430,
+        "roomSize": "63 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 41,
+        "description": "A modern single room designed for comfort and convenience. Features include a comfortable bed, work desk, and a sleek bathroom. Enjoy free Wi-Fi, a flat-screen TV, and complimentary tea and coffee.",
+        "pricePerNight": 130,
+        "roomSize": "23 sqm",
+        "availability": true,
+         "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 42,
+        "description": "A spacious family suite featuring two bedrooms, a living area, and a kitchenette. Ideal for families or groups, with modern amenities including free Wi-Fi, a flat-screen TV, and a large bathroom.",
+        "pricePerNight": 295,
+        "roomSize": "65 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 43,
+        "description": "A luxurious room with a king-size bed, a spacious living area, and a private balcony. Enjoy high-end amenities like a Jacuzzi, premium linens, and stunning views of the city or ocean.",
+        "pricePerNight": 380,
+        "roomSize": "56 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 44,
+        "description": "A contemporary double room featuring modern decor, a comfortable bed, and a sleek bathroom. The room includes free Wi-Fi, a flat-screen TV, and a minibar, perfect for a relaxing stay.",
+        "pricePerNight": 155,
+        "roomSize": "29 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 45,
+        "description": "A deluxe suite with a king-size bed, separate living area, and a private balcony. Enjoy luxurious amenities, including a Jacuzzi, stunning views, and premium service for an exceptional stay.",
+        "pricePerNight": 420,
+        "roomSize": "60 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 46,
+        "description": "A charming twin room with two single beds, ideal for friends or family. The room includes modern furnishings, a sleek bathroom, free Wi-Fi, and a flat-screen TV for a comfortable stay.",
+        "pricePerNight": 170,
+        "roomSize": "30 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 47,
+        "description": "A modern single room featuring a comfortable bed, a work desk, and a sleek bathroom. Enjoy amenities like free Wi-Fi, a flat-screen TV, and a coffee maker for a pleasant stay.",
+        "pricePerNight": 125,
+        "roomSize": "22 sqm",
+        "availability": true,
+       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 48,
+        "description": "A spacious family suite with two bedrooms, a living area, and a kitchenette. Ideal for families or groups, with modern amenities like free Wi-Fi, a flat-screen TV, and a large bathroom.",
+        "pricePerNight": 305,
+        "roomSize": "70 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 49,
+        "description": "A luxurious suite featuring a king-size bed, separate living area, and a private balcony. Enjoy stunning views, high-end amenities including a Jacuzzi, and exceptional room service for a memorable stay.",
+        "pricePerNight": 430,
+        "roomSize": "65 sqm",
+        "availability": false,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    },
+    {
+        "roomId": 50,
+        "description": "A modern double room with stylish decor, a comfortable bed, and a sleek bathroom. The room includes free Wi-Fi, a flat-screen TV, and a minibar. Perfect for both business and leisure travelers.",
+        "pricePerNight": 150,
+        "roomSize": "28 sqm",
+        "availability": true,
+        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+    }
+]
