@@ -8,7 +8,7 @@ const RoomDetails = () => {
   const room = useLoaderData();
   const { user } = useContext(AuthContext);
   // const [dayDifference, setDayDifference] = useState(1);
-  const { roomId, description, pricePerNight, roomSize, images } = room;
+  const { _id, description, pricePerNight, roomSize, images } = room;
   // const handledayDifference = (e) => {
   //   e.preventDefault();
   //   const checkIn = new Date(e.target.ckeckIn.value);
@@ -18,6 +18,24 @@ const RoomDetails = () => {
   //   console.log("day difference", differenceInDay);
   //   setDayDifference(differenceInDay);
   // };
+  const handleBook = (e) => {
+    e.preventDefault();
+    const checkIn = e.target.ckeckIn.value;
+    const email = user.email;
+    const name = user.displayName;
+
+    const room = { checkIn, images, email, name, pricePerNight };
+    console.log(room);
+    fetch("http://localhost:5000/bookings", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(room),
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data));
+  };
   return (
     <div className="max-w-6xl mx-auto">
       <div className="grid grid-cols-4  gap-2 rounded-lg mb-5">
@@ -32,7 +50,7 @@ const RoomDetails = () => {
         <img className="rounded-br-xl " src={images} />
       </div>
       <div className="flex">
-        <div className="space-y-4  mr-10 border pl-5">
+        <div className="space-y-4  mr-10  pl-5">
           <h2 className="text-4xl font-medium">About This Room</h2>
           <p>{description}</p>
           <hr />
@@ -48,11 +66,11 @@ const RoomDetails = () => {
               Area : {roomSize}
             </div>
           </div>
-          <p>Room : {roomId}</p>
+          <p>Room : </p>
         </div>
 
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-          <form className="card-body">
+          <form onSubmit={handleBook} className="card-body">
             <h1 className="text-base font-normal">
               <span className="text-xl">${pricePerNight}</span> night
             </h1>{" "}
