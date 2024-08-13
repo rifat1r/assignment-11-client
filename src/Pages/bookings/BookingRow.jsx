@@ -1,3 +1,5 @@
+import ReviewModal from "./ReviewModal";
+
 const BookingRow = ({ booking, handleCancel, handleUpdateDate }) => {
   const { checkIn, images, email, _id, name, pricePerNight } = booking;
 
@@ -26,7 +28,13 @@ const BookingRow = ({ booking, handleCancel, handleUpdateDate }) => {
         </div>
       </td>
       <td>
-        <div className="btn btn-sm bg-white text-blue-500">Add Review</div>
+        <label
+          htmlFor={`modal_${_id}`}
+          className="btn btn-sm bg-white text-blue-500"
+        >
+          Add Review
+        </label>
+        <ReviewModal booking={booking}></ReviewModal>
       </td>
       <td>
         <div
