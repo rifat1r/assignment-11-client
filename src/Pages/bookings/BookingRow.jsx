@@ -1,7 +1,8 @@
 import ReviewModal from "./ReviewModal";
 
 const BookingRow = ({ booking, handleCancel, handleUpdateDate }) => {
-  const { checkIn, images, email, _id, name, pricePerNight } = booking;
+  const { checkIn, images, email, _id, name, pricePerNight, roomId } = booking;
+  console.log("roomId", roomId);
 
   return (
     <tr>
@@ -14,18 +15,16 @@ const BookingRow = ({ booking, handleCancel, handleUpdateDate }) => {
           </div>
         </div>
       </td>
-      <td>{checkIn}</td>
+
       <td>${pricePerNight}</td>
       <td>
-        <div className=" text-blue-500 opacity-60 border rounded-xl px-2 btn bg-white">
-          <p>Update Date</p>
-          <input
-            onChange={(e) => handleUpdateDate(_id, e)}
-            type="date"
-            defaultValue="update Date"
-            name="date"
-          />
-        </div>
+        <input
+          onChange={(e) => handleUpdateDate(_id, e)}
+          type="date"
+          placeholder="hda"
+          defaultValue={checkIn}
+          name="date"
+        />
       </td>
       <td>
         <label

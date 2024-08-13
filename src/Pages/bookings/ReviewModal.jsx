@@ -6,7 +6,7 @@ import useAuth from "../../assets/hooks/useAuth";
 
 const ReviewModal = ({ booking }) => {
   const { user } = useAuth();
-  const { _id, pricePerNight } = booking;
+  const { _id, roomId, pricePerNight } = booking;
   const [value, setValue] = useState(null);
 
   const handleSubmit = (e) => {
@@ -29,8 +29,9 @@ const ReviewModal = ({ booking }) => {
       comment,
       email: user.email,
       name: user.displayName,
-      roomId: _id,
+      roomId,
       date: currentTime,
+      image: user.photoURL,
     };
     axios
       .post("http://localhost:5000/reviews", review)

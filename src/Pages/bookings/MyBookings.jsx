@@ -40,8 +40,12 @@ const MyBookings = () => {
         if (data.modifiedCount > 0) {
           console.log("updated successfully");
           // Update the state without changing the order of the bookings
-          const updatedBookings = bookings.map((booking) =>
-            booking._id === id ? { ...booking, checkIn: updatedDate } : booking
+          const updatedBookings = bookings.map(
+            (booking) =>
+              booking._id === id
+                ? { ...booking, checkIn: updatedDate }
+                : booking,
+            console.log("heyyy")
           );
           setBookings(updatedBookings);
         }
@@ -55,9 +59,9 @@ const MyBookings = () => {
         <thead>
           <tr className="bg-slate-200">
             <th>Room</th>
-            <th>Check-in</th>
+
             <th>Night</th>
-            <th></th>
+            <th>Update Check-in</th>
             <th></th>
             <th></th>
           </tr>
