@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
@@ -6,6 +6,7 @@ import { AuthContext } from "../../Provider/AuthProvider";
 import ReviewCard from "./ReviewCard";
 import useReviews from "../../assets/hooks/useReviews";
 import useAvailability from "../../assets/hooks/useAvailability";
+import Swal from "sweetalert2";
 // import { useState } from "react";
 
 const RoomDetails = () => {
@@ -17,6 +18,7 @@ const RoomDetails = () => {
   const { _id, description, pricePerNight, roomSize, images } = room;
   const { reviews } = useReviews(_id);
   const { status } = useAvailability(_id);
+  const navigate = useNavigate();
 
   const handledayDifference = (e) => {
     e.preventDefault();
@@ -29,6 +31,9 @@ const RoomDetails = () => {
   };
   const handleBook = (e) => {
     e.preventDefault();
+    if (!user?.email) {
+      return navigate("/login");
+    }
     const checkIn = e.target.ckeckIn.value;
     const email = user.email;
     const name = user.displayName;
@@ -42,15 +47,47 @@ const RoomDetails = () => {
       roomId: _id,
     };
     console.log(room);
-    fetch("http://localhost:5000/bookings", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(room),
-    })
-      .then((res) => res.json())
-      .then((data) => console.log(data));
+    Swal.fire({
+      title: "Are you sure?",
+      html: `
+      <div style="text-align: left;">
+        <img src="${images[0]}" style="width: 100%; height: auto; border-radius: 10px; margin-bottom: 15px;">
+        <h2 style="font-size: 18px; font-weight: bold; margin-bottom: 10px;">
+          Check-In: <span style="font-weight: normal;">${checkIn}</span>
+        </h2>
+        <h2 style="font-size: 18px; font-weight: bold; margin-bottom: 10px;">
+          Per Night: <span style="font-weight: normal;">$${pricePerNight}</span>
+        </h2>
+        <hr style="margin: 15px 0;">
+        <p style="font-size: 16px; line-height: 1.5; color: #333;">
+          ${description}
+        </p>
+      </div>
+    `,
+
+      icon: "question",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Confirm Booking",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        fetch("http://localhost:5000/bookings", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify(room),
+        })
+          .then((res) => res.json())
+          .then((data) => console.log(data));
+        Swal.fire({
+          title: "COnfirmed",
+          text: "Booking Successful",
+          icon: "success",
+        });
+      }
+    });
   };
   const totalRating = reviews.reduce((sum, review) => sum + review.rating, 0);
   const averageRating =
@@ -63,11 +100,43 @@ const RoomDetails = () => {
         <img
           className="col-span-2 row-span-2 w-full h-full rounded-l-xl "
           src={images[0]}
+          onError={(e) => {
+            e.target.src =
+              "https://images.unsplash.com/photo-1630404916223-9ffb5b5d51e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tJTIwd2l0aCUyMG5hdHVyZSUyMHZpZXd8ZW58MHwwfDB8fHwy";
+          }}
         />
-        <img className="w-full h-full " src={images[1]} />
-        <img className="w-full h-full rounded-tr-xl" src={images[2]} />
-        <img className="w-full h-full " src={images[3]} />
-        <img className="rounded-br-xl w-full h-full" src={images[4]} />
+        <img
+          className="w-full h-full "
+          src={images[1]}
+          onError={(e) => {
+            e.target.src =
+              "https://images.unsplash.com/photo-1630404916223-9ffb5b5d51e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tJTIwd2l0aCUyMG5hdHVyZSUyMHZpZXd8ZW58MHwwfDB8fHwy";
+          }}
+        />
+        <img
+          className="w-full h-full rounded-tr-xl"
+          src={images[2]}
+          onError={(e) => {
+            e.target.src =
+              "https://images.unsplash.com/photo-1630404916223-9ffb5b5d51e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tJTIwd2l0aCUyMG5hdHVyZSUyMHZpZXd8ZW58MHwwfDB8fHwy";
+          }}
+        />
+        <img
+          className="w-full h-full "
+          src={images[3]}
+          onError={(e) => {
+            e.target.src =
+              "https://images.unsplash.com/photo-1630404916223-9ffb5b5d51e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tJTIwd2l0aCUyMG5hdHVyZSUyMHZpZXd8ZW58MHwwfDB8fHwy";
+          }}
+        />
+        <img
+          className="rounded-br-xl w-full h-full"
+          src={images[4]}
+          onError={(e) => {
+            e.target.src =
+              "https://images.unsplash.com/photo-1630404916223-9ffb5b5d51e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tJTIwd2l0aCUyMG5hdHVyZSUyMHZpZXd8ZW58MHwwfDB8fHwy";
+          }}
+        />
       </div>
       <div className="flex">
         <div className="space-y-4  mr-10  pl-5">

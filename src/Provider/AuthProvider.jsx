@@ -6,6 +6,7 @@ import {
   signInWithEmailAndPassword,
   signOut,
 } from "firebase/auth";
+import axios from "axios";
 
 export const AuthContext = createContext();
 
@@ -26,10 +27,31 @@ const AuthProvider = ({ children }) => {
       console.log("on auth state changed", currentUSer);
       setUser(currentUSer);
       setLoading(false);
+      const userEmail = currentUSer.email || user?.email;
+      const loggedUser = { email: userEmail };
+      if (currentUSer) {
+        axios
+          .post("http://localhost:5000/jwt", loggedUser, {
+            withCredentials: true,
+          })
+          .then((res) => {
+            console.log("jwt post response", res.data);
+          });
+      }
     });
-    return () => unsubscribe();
-  }, []);
-  const authInfo = { createUser, loginUser, user, logoutUser, loading };
+
+    return () => {
+      return unsubscribe();
+    };
+  }, [user?.email]);
+  const authInfo = {
+    createUser,
+    loginUser,
+    user,
+    logoutUser,
+    loading,
+    setUser,
+  };
   return (
     <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>
   );

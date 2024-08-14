@@ -18,13 +18,13 @@ const RoomCard = ({ room }) => {
         <figure className="relative">
           <img
             className="max-w-xl h-72"
-            src={
-              images
-                ? images
-                : "https://images.unsplash.com/photo-1610395761656-689d4a0142e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
-            }
+            src={images}
+            onError={(e) => {
+              e.target.src =
+                "https://images.unsplash.com/photo-1630404916223-9ffb5b5d51e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tJTIwd2l0aCUyMG5hdHVyZSUyMHZpZXd8ZW58MHwwfDB8fHwy";
+            }}
           />
-          <span className="absolute bg-white px-2 py-1 rounded-md top-3 left-3 opacity-80 ">
+          <span className="absolute bg-black text-white px-2 py-1 rounded-md top-3 left-3 opacity-40 ">
             {status}
           </span>
         </figure>

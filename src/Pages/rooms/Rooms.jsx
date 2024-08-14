@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import RoomCard from "./RoomCard";
-import useAvailability from "../../assets/hooks/useAvailability";
+// import useAvailability from "../../assets/hooks/useAvailability";
 
 const Rooms = () => {
   const [rooms, setRooms] = useState([]);
