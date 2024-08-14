@@ -6,7 +6,7 @@ const ReviewCard = ({ review }) => {
   const currentTime = new Date(date);
   const time = currentTime.toLocaleTimeString();
   const day = currentTime.toLocaleDateString();
-  console.log("date", time, day);
+  // console.log("date", time, day);
   const timestamp = day + " " + time;
   return (
     <div className="border p-3 rounded-lg border-black">

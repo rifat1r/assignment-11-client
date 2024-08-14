@@ -2,34 +2,45 @@ import { useLoaderData } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
-import axios from "axios";
+// import axios from "axios";
 import ReviewCard from "./ReviewCard";
 import useReviews from "../../assets/hooks/useReviews";
+import useAvailability from "../../assets/hooks/useAvailability";
 // import { useState } from "react";
 
 const RoomDetails = () => {
   const room = useLoaderData();
   const { user } = useContext(AuthContext);
-  // const [dayDifference, setDayDifference] = useState(1);
+  const [dayDifference, setDayDifference] = useState(1);
+  const [checkIn, setCheckIn] = useState("");
+  const [checkOut, setCheckOut] = useState("");
   const { _id, description, pricePerNight, roomSize, images } = room;
   const { reviews } = useReviews(_id);
+  const { status } = useAvailability(_id);
 
-  // const handledayDifference = (e) => {
-  //   e.preventDefault();
-  //   const checkIn = new Date(e.target.ckeckIn.value);
-  //   const checkOut = new Date(e.target.ckeckOut.value);
-  //   const differenceInTime = checkOut.getTime() - checkIn.getTime();
-  //   const differenceInDay = differenceInTime / (1000 * 60 * 60 * 24);
-  //   console.log("day difference", differenceInDay);
-  //   setDayDifference(differenceInDay);
-  // };
+  const handledayDifference = (e) => {
+    e.preventDefault();
+    const checkIn = new Date(e.target.ckeckIn.value);
+    const checkOut = new Date(e.target.ckeckOut.value);
+    const differenceInTime = checkOut.getTime() - checkIn.getTime();
+    const differenceInDay = differenceInTime / (1000 * 60 * 60 * 24);
+    console.log("day difference", differenceInDay);
+    setDayDifference(differenceInDay);
+  };
   const handleBook = (e) => {
     e.preventDefault();
     const checkIn = e.target.ckeckIn.value;
     const email = user.email;
     const name = user.displayName;
 
-    const room = { checkIn, images, email, name, pricePerNight, roomId: _id };
+    const room = {
+      checkIn,
+      images,
+      email,
+      name,
+      pricePerNight,
+      roomId: _id,
+    };
     console.log(room);
     fetch("http://localhost:5000/bookings", {
       method: "POST",
@@ -51,12 +62,12 @@ const RoomDetails = () => {
         {" "}
         <img
           className="col-span-2 row-span-2 w-full h-full rounded-l-xl "
-          src={images}
+          src={images[0]}
         />
-        <img className=" " src={images} />
-        <img className=" rounded-tr-xl" src={images} />
-        <img className=" " src={images} />
-        <img className="rounded-br-xl " src={images} />
+        <img className="w-full h-full " src={images[1]} />
+        <img className="w-full h-full rounded-tr-xl" src={images[2]} />
+        <img className="w-full h-full " src={images[3]} />
+        <img className="rounded-br-xl w-full h-full" src={images[4]} />
       </div>
       <div className="flex">
         <div className="space-y-4  mr-10  pl-5">
@@ -75,7 +86,6 @@ const RoomDetails = () => {
               Area : {roomSize}
             </div>
           </div>
-          <p>Room : </p>
         </div>
 
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
@@ -86,17 +96,34 @@ const RoomDetails = () => {
             <div className="flex border rounded-lg border-black ">
               <div className=" border-r border-black w-full pl-2">
                 <p>check-in</p>
-                <input className="" type="date" name="ckeckIn" required />
+                <input
+                  onChange={handledayDifference}
+                  className=""
+                  type="date"
+                  name="ckeckIn"
+                  required
+                />
               </div>
-              {/* <div className=" w-full pl-2">
+              <div className=" w-full pl-2">
                 <p>check-out</p>
-                <input className="" type="date" name="ckeckOut" required />
-              </div> */}
+                <input
+                  onChange={handledayDifference}
+                  className=""
+                  type="date"
+                  name="ckeckOut"
+                  required
+                />
+              </div>
             </div>
             <div className="form-control mt-6">
-              <button className="btn btn-secondary">Book Now</button>
+              <button
+                disabled={status === "booked"}
+                className="btn btn-secondary"
+              >
+                Book Now
+              </button>
             </div>
-            {/* <div className="space-y-2">
+            <div className="space-y-2">
               <div className="flex justify-end ">
                 <p className="underline">
                   ${pricePerNight}× {dayDifference} nights
@@ -116,7 +143,7 @@ const RoomDetails = () => {
                     pricePerNight * dayDifference * 0.05}
                 </h2>
               </div>
-            </div> */}
+            </div>
           </form>
         </div>
       </div>
@@ -125,7 +152,7 @@ const RoomDetails = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
         {reviews.map((review) => (
-          <ReviewCard key={review.Id} review={review}></ReviewCard>
+          <ReviewCard key={review._id} review={review}></ReviewCard>
         ))}
       </div>
     </div>

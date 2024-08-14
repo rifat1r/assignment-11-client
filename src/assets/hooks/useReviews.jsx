@@ -8,7 +8,7 @@ const useReviews = (id) => {
       .get(`http://localhost:5000/reviews?id=${id}`)
       .then((res) => {
         setReviews(res.data);
-        console.log("review in room details", res.data);
+        // console.log("review in room details", res.data);
       })
       .catch((error) => console.log(error));
   }, [id]);
