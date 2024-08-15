@@ -3,20 +3,21 @@ import { useEffect, useState } from "react";
 
 const useAvailability = (id) => {
   const [bookedRooms, setBookedRooms] = useState([]);
-  const [status, setStatus] = useState("available");
+  const [status, setStatus] = useState(null);
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/bookings")
+      .get("http://localhost:5000/allBookings")
       .then((res) => setBookedRooms(res.data));
   }, []);
   useEffect(() => {
     const roomStatus = bookedRooms.find(
       (bookedRoom) => bookedRoom.roomId === id
     )
-      ? "booked"
-      : "available";
+      ? "Booked"
+      : "Available";
     setStatus(roomStatus);
+    // console.log('')
   }, [bookedRooms, id]);
 
   return { bookedRooms, status };

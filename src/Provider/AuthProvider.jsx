@@ -23,23 +23,31 @@ const AuthProvider = ({ children }) => {
     return signOut(auth);
   };
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUSer) => {
-      console.log("on auth state changed", currentUSer);
-      setUser(currentUSer);
-      setLoading(false);
-      const userEmail = currentUSer.email || user?.email;
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      const userEmail = currentUser?.email || user?.email;
       const loggedUser = { email: userEmail };
-      if (currentUSer) {
+      setUser(currentUser);
+      console.log("current user", currentUser);
+      setLoading(false);
+      //if user exits then issue a token
+      if (currentUser) {
         axios
           .post("http://localhost:5000/jwt", loggedUser, {
             withCredentials: true,
           })
           .then((res) => {
-            console.log("jwt post response", res.data);
+            console.log("token response", res.data);
+          });
+      } else {
+        axios
+          .post("http://localhost:5000/logout", loggedUser, {
+            withCredentials: true,
+          })
+          .then((res) => {
+            console.log(res.data);
           });
       }
     });
-
     return () => {
       return unsubscribe();
     };

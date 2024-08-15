@@ -31,6 +31,14 @@ const RoomDetails = () => {
   };
   const handleBook = (e) => {
     e.preventDefault();
+    if (status === "Booked") {
+      Swal.fire({
+        title: "Booking Unavailable",
+        text: "This room is already booked.",
+        icon: "warning",
+      });
+      return;
+    }
     if (!user?.email) {
       return navigate("/login");
     }
@@ -82,7 +90,7 @@ const RoomDetails = () => {
           .then((res) => res.json())
           .then((data) => console.log(data));
         Swal.fire({
-          title: "COnfirmed",
+          title: "Confirmed",
           text: "Booking Successful",
           icon: "success",
         });
@@ -185,12 +193,7 @@ const RoomDetails = () => {
               </div>
             </div>
             <div className="form-control mt-6">
-              <button
-                disabled={status === "booked"}
-                className="btn btn-secondary"
-              >
-                Book Now
-              </button>
+              <button className="btn btn-secondary">Book Now</button>
             </div>
             <div className="space-y-2">
               <div className="flex justify-end ">
