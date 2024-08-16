@@ -3,15 +3,19 @@ import Typography from "@mui/material/Typography";
 import axios from "axios";
 import { useState } from "react";
 import useAuth from "../../assets/hooks/useAuth";
+import useRoom from "../../assets/hooks/useRoom";
+import toast, { Toaster } from "react-hot-toast";
 
 const ReviewModal = ({ booking }) => {
   const { user } = useAuth();
-  const { _id, roomId, pricePerNight } = booking;
-  const [value, setValue] = useState(null);
+  const { _id, roomId } = booking;
+  const room = useRoom(roomId);
+  const { title } = room;
+  const [value, setValue] = useState(0);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (value === null) {
+    if (value === 0) {
       return alert("Please provide a rating");
     }
     const comment = e.target.review.value;
@@ -36,20 +40,32 @@ const ReviewModal = ({ booking }) => {
     axios
       .post("http://localhost:5000/reviews", review)
       .then((res) => {
+        toast.success("Your Review Published Successfully");
         console.log(res.data);
       })
       .catch((error) => console.log(error));
+    e.target.reset();
+    setValue(0);
   };
 
   return (
     <div className="">
+      <Toaster />
+
       <input type="checkbox" id={`modal_${_id}`} className="modal-toggle" />
       <div className="modal " role="dialog">
         <form onSubmit={handleSubmit}>
           <div className="modal-box w-screen ">
+            <h2 className="text-3xl text-center bg-slate-300 py-1 rounded-lg">
+              Rate Your Stay
+            </h2>
+
+            <br />
+
             <Typography component="legend">
-              <h2 className="text-xl text-center mb-4">Rate Your Stay</h2>
+              <h2 className="text-xl text-center mb-4">{title}</h2>
             </Typography>
+
             <div className="text-center font-extrabold">
               <Rating
                 aria-required

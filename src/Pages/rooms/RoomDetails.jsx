@@ -1,21 +1,22 @@
 import { useLoaderData, useNavigate } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 // import axios from "axios";
 import ReviewCard from "./ReviewCard";
 import useReviews from "../../assets/hooks/useReviews";
 import useAvailability from "../../assets/hooks/useAvailability";
 import Swal from "sweetalert2";
+
 // import { useState } from "react";
 
 const RoomDetails = () => {
   const room = useLoaderData();
   const { user } = useContext(AuthContext);
   const [dayDifference, setDayDifference] = useState(1);
-  const [checkIn, setCheckIn] = useState("");
-  const [checkOut, setCheckOut] = useState("");
-  const { _id, description, pricePerNight, roomSize, images } = room;
+  // const [checkIn, setCheckIn] = useState("");
+  // const [checkOut, setCheckOut] = useState("");
+  const { _id, description, pricePerNight, roomSize, images, title } = room;
   const { reviews } = useReviews(_id);
   const { status } = useAvailability(_id);
   const navigate = useNavigate();
@@ -67,6 +68,7 @@ const RoomDetails = () => {
           Per Night: <span style="font-weight: normal;">$${pricePerNight}</span>
         </h2>
         <hr style="margin: 15px 0;">
+        <h2 style="font-size: 25px; font-weight: bold; margin-bottom: 10px;">${title}</h2>
         <p style="font-size: 16px; line-height: 1.5; color: #333;">
           ${description}
         </p>
@@ -167,8 +169,9 @@ const RoomDetails = () => {
 
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
           <form onSubmit={handleBook} className="card-body">
-            <h1 className="text-base font-normal">
-              <span className="text-xl">${pricePerNight}</span> night
+            <h1 className="text-2xl  font-normal">
+              ${pricePerNight}
+              <span className="text-xl pl-1">night</span>
             </h1>{" "}
             <div className="flex border rounded-lg border-black ">
               <div className=" border-r border-black w-full pl-2">
@@ -222,11 +225,20 @@ const RoomDetails = () => {
       <hr />
       <h2 className=" text-4xl font-semibold mt-20 mb-4">Guest Experiences</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
-        {reviews.map((review) => (
-          <ReviewCard key={review._id} review={review}></ReviewCard>
-        ))}
-      </div>
+      {reviews.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+          {reviews.map((review) => (
+            <ReviewCard key={review._id} review={review}></ReviewCard>
+          ))}
+        </div>
+      ) : (
+        <div className="text-2xl border-2 text-center  mb-10 mx-10 p-4">
+          <h2>
+            No reviews yet. Be the first to share your experience! You can add a
+            review after booking this room from your 'My Bookings' page.
+          </h2>
+        </div>
+      )}
     </div>
   );
 };

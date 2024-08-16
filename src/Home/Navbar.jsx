@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import { MdMenu } from "react-icons/md";
+import "./navbar.css";
 
 const Navbar = () => {
   const { logoutUser, user } = useContext(AuthContext);
@@ -9,19 +11,20 @@ const Navbar = () => {
   const handleLogout = () => {
     logoutUser().then().catch();
   };
-  const links = (
+  const centerLinks = (
+    <nav className="flex  border border-orange-400 px-5 py-2 rounded-badge space-x-4 text-base font-medium  opacity-80">
+      <NavLink to="/">Home</NavLink>
+
+      <NavLink to="/rooms">Rooms</NavLink>
+
+      <NavLink to="/myBookings">My Bookings</NavLink>
+    </nav>
+  );
+  const leftLinks = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/profile">Profile</NavLink>
       </li>
-      <li>
-        <NavLink to="/rooms">Rooms</NavLink>
-      </li>
-      {user && (
-        <li>
-          <NavLink to="/myBookings">My Bookings</NavLink>
-        </li>
-      )}
       <li>
         <NavLink to="/register">Register</NavLink>
       </li>
@@ -34,51 +37,52 @@ const Navbar = () => {
           <NavLink to="/login">Login</NavLink>
         </li>
       )}
+      <hr />
+      <li>
+        <NavLink to="/about">About Us</NavLink>
+      </li>
+      <li>
+        <NavLink to="/contact">Contact</NavLink>
+      </li>
     </>
   );
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
+        <a className="btn btn-ghost text-xl">daisyUI</a>
+      </div>
+      <div className="navbar-center ">{centerLinks}</div>
+      <div className="navbar-end">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
+          <div tabIndex={0} role="button" className="">
+            <div className="flex items-center gap-1 border rounded-full px-3 py-1 my-auto shadow-md hover:shadow-inner">
+              <span className="text-3xl">
+                {" "}
+                <MdMenu></MdMenu>
+              </span>
+              <div className="w-8">
+                <img
+                  className="rounded-full h-8 w-8 object-cover"
+                  src={
+                    user?.photoURL
+                      ? user?.photoURL
+                      : "https://i.postimg.cc/1tmgvBcN/453178253-471506465671661-2781666950760530985-n.png"
+                  }
+                  onError={(e) => {
+                    e.target.src =
+                      "https://i.postimg.cc/1tmgvBcN/453178253-471506465671661-2781666950760530985-n.png";
+                  }}
+                />
+              </div>
+            </div>
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100  z-[2] mr-11 w-28 shadow"
           >
-            {links}
+            {leftLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
-      </div>
-      <div className="navbar-center hidden md:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
-      </div>
-      <div className="navbar-end">
-        {user ? (
-          <div className="flex items-center">
-            <div className="w-10">
-              <img className="rounded-full  " src={user.photoURL} />
-            </div>
-            <p>{user.displayName}</p>
-          </div>
-        ) : (
-          <a className="btn">Button</a>
-        )}
       </div>
     </div>
   );

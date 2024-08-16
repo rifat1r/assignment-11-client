@@ -1,0 +1,5 @@
+nav a.active {
+  font-weight: bold;
+  color: red; /* Or any style to highlight the active link */
+  text-decoration: underline;
+}

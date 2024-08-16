@@ -2,17 +2,12 @@ import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import BookingRow from "./BookingRow";
 import axios from "axios";
+import toast, { Toaster } from "react-hot-toast";
 
 const MyBookings = () => {
   const { user } = useContext(AuthContext);
   const [bookings, setBookings] = useState([]);
   useEffect(() => {
-    // fetch(`http://localhost:5000/bookings?email=${user?.email}`)
-    //   .then((res) => res.json())
-    //   .then((data) => {
-    //     console.log(data);
-    //     setBookings(data);
-    //   });
     axios
       .get(`http://localhost:5000/bookings?email=${user?.email}`, {
         withCredentials: true,
@@ -25,6 +20,7 @@ const MyBookings = () => {
     })
       .then((res) => res.json())
       .then((data) => {
+        toast.success("Booking Cancelled Successfully");
         console.log(data);
         const remaining = bookings.filter((booking) => booking._id !== id);
         setBookings(remaining);
@@ -44,6 +40,8 @@ const MyBookings = () => {
       .then((data) => {
         console.log(data);
         if (data.modifiedCount > 0) {
+          toast.success("Successfully Updated Check In");
+
           console.log("updated successfully");
           // Update the state without changing the order of the bookings
           const updatedBookings = bookings.map(
@@ -60,12 +58,14 @@ const MyBookings = () => {
 
   return (
     <div className="overflow-x-auto">
+      <Toaster position="top-center" />
       <table className="table">
         {/* head */}
         <thead>
           <tr className="bg-slate-200">
             <th>Room</th>
 
+            <td>Check In</td>
             <th>Night</th>
             <th>Update Check-in</th>
             <th></th>

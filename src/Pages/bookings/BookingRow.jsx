@@ -15,14 +15,17 @@ const BookingRow = ({ booking, handleCancel, handleUpdateDate }) => {
           </div>
         </div>
       </td>
-
+      <td>
+        <p>{checkIn}</p>
+      </td>
       <td>${pricePerNight}</td>
       <td>
         <input
+          className="border px-2 py-1 border-green-400 rounded-sm"
           onChange={(e) => handleUpdateDate(_id, e)}
           type="date"
           placeholder="hda"
-          defaultValue={checkIn}
+          // defaultValue={}
           name="date"
         />
       </td>

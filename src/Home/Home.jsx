@@ -1,9 +1,13 @@
-import { useContext } from "react";
-import { AuthContext } from "../Provider/AuthProvider";
+import Banner from "./Banner/Banner";
+import MyMap from "./MyMap";
 
 const Home = () => {
-  const { name } = useContext(AuthContext);
-  return <div>this is home:{name} </div>;
+  return (
+    <div>
+      <Banner></Banner>
+      <MyMap></MyMap>
+    </div>
+  );
 };
 
 export default Home;

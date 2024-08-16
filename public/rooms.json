@@ -1,350 +1,395 @@
 [
     {
-        "description": "A cozy double room with modern amenities, perfect for couples. It features a comfortable bed, a spacious bathroom, and a beautiful city view. The room is equipped with free Wi-Fi, a flat-screen TV, and a minibar.",
-        "pricePerNight": 120,
-        "roomSize": "25 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Serene Garden Suite",
+      "description": "A cozy double room with modern amenities, perfect for couples. It features a comfortable bed, a spacious bathroom, and a beautiful city view. The room is equipped with free Wi-Fi, a flat-screen TV, and a minibar.",
+      "pricePerNight": 120,
+      "roomSize": "25 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A luxurious suite offering a king-size bed, a living area, and a private balcony with stunning sea views. Enjoy a lavish stay with high-end amenities, including a jacuzzi, premium toiletries, and a Nespresso machine.",
-        "pricePerNight": 300,
-        "roomSize": "45 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Modern Urban Loft",
+      "description": "A luxurious suite offering a king-size bed, a living area, and a private balcony with stunning sea views. Enjoy a lavish stay with high-end amenities, including a jacuzzi, premium toiletries, and a Nespresso machine.",
+      "pricePerNight": 300,
+      "roomSize": "45 sqm",
+      "availability": false,
+      "images": [
+        "https://images.unsplash.com/photo-1592229506151-845940174bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1654064550772-9caf05e75cf0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A spacious twin room ideal for friends or colleagues. The room features two single beds, a work desk, and a large wardrobe. Guests can enjoy free high-speed Wi-Fi, a flat-screen TV, and complimentary breakfast.",
-        "pricePerNight": 150,
-        "roomSize": "30 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Luxe Penthouse" ,
+      "description": "A spacious twin room ideal for friends or colleagues. The room features two single beds, a work desk, and a large wardrobe. Guests can enjoy free high-speed Wi-Fi, a flat-screen TV, and complimentary breakfast.",
+      "pricePerNight": 150,
+      "roomSize": "30 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1722763529109-2bcb289a47c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1721222201438-b59e2bbca679?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjM3fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D"
+      ]
     },
     {
-        "description": "An elegant room with a queen-size bed, perfect for business travelers. The room offers a comfortable stay with a work desk, a mini-bar, and a beautiful city view. Amenities include free Wi-Fi, a flat-screen TV, and room service.",
-        "pricePerNight": 180,
-        "roomSize": "28 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Charming Country Cottage",
+      "description": "An elegant room with a queen-size bed, perfect for business travelers. The room offers a comfortable stay with a work desk, a mini-bar, and a beautiful city view. Amenities include free Wi-Fi, a flat-screen TV, and room service.",
+      "pricePerNight": 180,
+      "roomSize": "28 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A family room designed for comfort and convenience. The room features a king-size bed and a sofa bed, accommodating up to four guests. Enjoy modern amenities, including a kitchenette, free Wi-Fi, and a large bathroom.",
-        "pricePerNight": 250,
-        "roomSize": "40 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Elegant City Apartment",
+      "description": "A charming single room with all the essentials for a comfortable stay. It includes a cozy bed, a work desk, and a large window with natural light. The room is equipped with free Wi-Fi, a flat-screen TV, and a private bathroom.",
+      "pricePerNight": 80,
+      "roomSize": "20 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A stylish room with a modern design, featuring a comfortable double bed and a sleek bathroom. Ideal for couples or solo travelers. The room includes a flat-screen TV, a minibar, and free Wi-Fi for your convenience.",
-        "pricePerNight": 130,
-        "roomSize": "27 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Rustic Mountain Retreat" ,
+      "description": "A deluxe room with two queen-size beds, ideal for families. The room features a large bathroom with a bathtub, a mini-fridge, and a city view. Guests can enjoy high-speed Wi-Fi, a flat-screen TV, and complimentary breakfast.",
+      "pricePerNight": 200,
+      "roomSize": "40 sqm",
+      "availability": false,
+      "images": [
+        "https://images.unsplash.com/photo-1654064550772-9caf05e75cf0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1592229506151-845940174bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A luxurious penthouse suite with panoramic city views. The suite offers a king-size bed, a separate living area, and a private terrace. Enjoy top-notch amenities, including a Jacuzzi, premium linens, and 24-hour room service.",
-        "pricePerNight": 500,
-        "roomSize": "60 sqm",
-        "availability": false,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Cozy Coastal Bungalow",
+      "description": "A modern studio apartment perfect for long stays. It includes a king-size bed, a kitchenette, and a private balcony. The studio is equipped with high-speed Wi-Fi, a smart TV, and a washing machine.",
+      "pricePerNight": 250,
+      "roomSize": "50 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1722763529109-2bcb289a47c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D"
+      ]
     },
     {
-        "description": "A charming single room, perfect for solo travelers. The room features a comfortable bed, a modern bathroom, and a work desk. Enjoy free high-speed Wi-Fi, a flat-screen TV, and complimentary tea and coffee.",
-        "pricePerNight": 100,
-        "roomSize": "20 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Spacious Studio Loft" ,
+      "description": "An economy room with basic amenities, ideal for budget travelers. It features a single bed, a small work desk, and a shared bathroom. The room offers free Wi-Fi and access to a shared kitchen.",
+      "pricePerNight": 50,
+      "roomSize": "15 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1721222201438-b59e2bbca679?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjM3fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A deluxe double room with a sea view. The room offers a queen-size bed, a spacious balcony, and a modern bathroom. Amenities include free Wi-Fi, a minibar, and a flat-screen TV. Perfect for a relaxing seaside getaway.",
-        "pricePerNight": 220,
-        "roomSize": "35 sqm",
-        "availability": false,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      
+      "title": "Opulent Royal Suite",
+      "description": "A luxury suite with a stunning ocean view, featuring a king-size bed, a separate living area, and a private terrace. The suite includes a Jacuzzi, a mini-bar, and a large bathroom with a rain shower. Guests enjoy VIP services and complimentary breakfast.",
+      "pricePerNight": 500,
+      "roomSize": "80 sqm",
+      "availability": false,
+      "images": [
+        "https://images.unsplash.com/photo-1592494804071-faea15d93a8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1493666835815-de6b83927e24?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D"
+      ]
     },
     {
-        "description": "A contemporary suite featuring a king-size bed, a living area, and a luxurious bathroom with a rain shower. The suite offers breathtaking city views, free Wi-Fi, a flat-screen TV, and complimentary breakfast.",
-        "pricePerNight": 320,
-        "roomSize": "50 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Minimalist Design Room" ,
+      "description": "A cozy twin room with two single beds, perfect for friends or colleagues traveling together. The room includes a private bathroom, free Wi-Fi, and a flat-screen TV. Breakfast is available for an additional charge.",
+      "pricePerNight": 90,
+      "roomSize": "25 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1660214302296-0473a877c7d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1598227401254-23d3a282c8a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "An executive room designed for business travelers. It features a king-size bed, a work desk, and a comfortable seating area. Enjoy amenities like free Wi-Fi, a flat-screen TV, and 24-hour room service.",
-        "pricePerNight": 200,
-        "roomSize": "32 sqm",
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Historic Mansion Room",
+      "description": "A spacious family room with two double beds and a sofa bed. The room includes a dining area, a kitchenette, and a balcony with a garden view. It is perfect for families with children and offers free Wi-Fi and a TV.",
+      "pricePerNight": 180,
+      "roomSize": "55 sqm",
+      "availability": false,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A deluxe twin room offering two comfortable beds, a modern bathroom, and a beautiful city view. Perfect for friends or colleagues traveling together. The room includes free Wi-Fi, a minibar, and a flat-screen TV.",
-        "pricePerNight": 180,
-        "roomSize": "30 sqm",
-        "availability": false,
-         "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Chic Boutique Hotel Room" ,
+      "description": "A chic penthouse suite with panoramic city views, featuring a large bedroom, a fully equipped kitchen, and a private rooftop terrace. The suite includes a home theater system, a Jacuzzi, and personalized concierge services.",
+      "pricePerNight": 750,
+      "roomSize": "120 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1493666835815-de6b83927e24?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1592494804071-faea15d93a8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1660893334837-c9f2d1a41719?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ2fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A premium suite with a king-size bed, separate living room, and a private balcony. The suite offers luxurious amenities including a Jacuzzi, premium linens, and a stunning view of the skyline.",
-        "pricePerNight": 400,
-        "roomSize": "55 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Tranquil Forest Cabin",
+      "description": "A modern executive room with a king-size bed and a spacious work desk. The room offers city views, high-speed internet, and a coffee machine. Ideal for business travelers seeking comfort and convenience.",
+      "pricePerNight": 220,
+      "roomSize": "35 sqm",
+      "availability": false,
+      "images": [
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1598227401254-23d3a282c8a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A modern single room designed for comfort and efficiency. The room features a cozy bed, a work desk, and a sleek bathroom. Guests can enjoy complimentary Wi-Fi, a flat-screen TV, and a coffee maker.",
-        "pricePerNight": 110,
-        "roomSize": "22 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Art Deco Glam Room",
+      "description": "A deluxe room with a queen-size bed and a garden view. The room features elegant decor, a marble bathroom, and complimentary tea and coffee. Perfect for couples seeking a romantic getaway.",
+      "pricePerNight": 180,
+      "roomSize": "30 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1646602655680-c45219eb039c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI1fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D"
+      ]
     },
     {
-        "description": "A spacious family suite featuring two bedrooms, a living area, and a kitchenette. The suite is ideal for families and offers modern amenities like free Wi-Fi, a flat-screen TV, and complimentary breakfast.",
-        "pricePerNight": 280,
-        "roomSize": "60 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Contemporary Urban Retreat",
+      "description": "A stylish studio apartment with a fully equipped kitchenette and a cozy living area. The apartment is ideal for long-term stays and offers daily housekeeping, free Wi-Fi, and access to the gym.",
+      "pricePerNight": 150,
+      "roomSize": "45 sqm",
+      "availability": false,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1660214302296-0473a877c7d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1646602655680-c45219eb039c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI1fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A charming room with a queen-size bed, perfect for couples or solo travelers. The room features a modern bathroom, free Wi-Fi, and a flat-screen TV. Enjoy a comfortable stay with all the essential amenities.",
-        "pricePerNight": 140,
-        "roomSize": "26 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Grand Oceanfront Suite" ,
+      "description": "A cozy standard room with twin beds and a park view. The room is furnished with modern amenities, including a flat-screen TV, a minibar, and a spacious wardrobe.",
+      "pricePerNight": 120,
+      "roomSize": "25 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A luxurious suite offering a king-size bed, a separate living room, and a private balcony with ocean views. The suite includes a Jacuzzi, premium linens, and 24-hour room service for an unforgettable stay.",
-        "pricePerNight": 350,
-        "roomSize": "48 sqm",
-        "availability": false,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Sunny Beach House",
+      "description": "A luxury suite with a private sauna and a balcony overlooking the ocean. The suite includes a spacious living area, a king-size bed, and a state-of-the-art entertainment system.",
+      "pricePerNight": 900,
+      "roomSize": "110 sqm",
+      "availability": false,
+      "images": [
+        "https://images.unsplash.com/photo-1646602655680-c45219eb039c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI1fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A cozy double room with modern furnishings, ideal for couples or solo travelers. The room offers free Wi-Fi, a flat-screen TV, and a minibar. Enjoy a comfortable stay in this well-appointed space.",
-        "pricePerNight": 125,
-        "roomSize": "24 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Vintage Charm Suite",
+      "description": "A spacious family room with two queen-size beds and a play area for children. The room offers a garden view, a minibar, and an entertainment system with children's programming.",
+      "pricePerNight": 300,
+      "roomSize": "60 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1610395761656-689d4a0142e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1597308011529-f634f4cab827?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1610395761656-689d4a0142e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1646602655680-c45219eb039c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI1fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A contemporary suite with a king-size bed, a private balcony, and a luxurious bathroom with a rain shower. The suite offers breathtaking views, free Wi-Fi, a flat-screen TV, and complimentary breakfast.",
-        "pricePerNight": 330,
-        "roomSize": "52 sqm",
-        "availability": true,
-      "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Sophisticated Skyline View",
+      "description": "A charming single room with all the essentials for a comfortable stay. It includes a cozy bed, a work desk, and a large window with natural light. The room is equipped with free Wi-Fi, a flat-screen TV, and a private bathroom.",
+      "pricePerNight": 80,
+      "roomSize": "20 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A premium twin room with two comfortable beds, a spacious bathroom, and a beautiful city view. The room includes free Wi-Fi, a minibar, and a flat-screen TV. Ideal for friends or colleagues traveling together.",
-        "pricePerNight": 175,
-        "roomSize": "29 sqm",
-        "availability": false,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    }, {
-        "description": "A stylish double room with modern decor and amenities. Features include a comfortable bed, a work desk, and a sleek bathroom. Enjoy free Wi-Fi, a flat-screen TV, and a minibar. Perfect for both business and leisure travelers.",
-        "pricePerNight": 135,
-        "roomSize": "27 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Comfortable Family Suite",
+      "description": "A deluxe room with two queen-size beds, ideal for families. The room features a large bathroom with a bathtub, a mini-fridge, and a city view. Guests can enjoy high-speed Wi-Fi, a flat-screen TV, and complimentary breakfast.",
+      "pricePerNight": 200,
+      "roomSize": "40 sqm",
+      "availability": false,
+      "images": [
+        "https://images.unsplash.com/photo-1654064550772-9caf05e75cf0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1592229506151-845940174bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A luxurious penthouse with a king-size bed, separate living area, and a private terrace. Enjoy top-notch amenities including a Jacuzzi, stunning city views, and personalized room service for an unforgettable stay.",
-        "pricePerNight": 550,
-        "roomSize": "70 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Luxurious Spa Room" ,
+      "description": "A modern studio apartment perfect for long stays. It includes a king-size bed, a kitchenette, and a private balcony. The studio is equipped with high-speed Wi-Fi, a smart TV, and a washing machine.",
+      "pricePerNight": 250,
+      "roomSize": "50 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1722763529109-2bcb289a47c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D"
+      ]
     },
     {
-        "description": "A spacious family room featuring two bedrooms, a living area, and a kitchenette. Ideal for families or groups, with modern amenities including free Wi-Fi, a flat-screen TV, and a large bathroom.",
-        "pricePerNight": 290,
-        "roomSize": "65 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Urban Chic Loft",
+      "description": "An economy room with basic amenities, ideal for budget travelers. It features a single bed, a small work desk, and a shared bathroom. The room offers free Wi-Fi and access to a shared kitchen.",
+      "pricePerNight": 50,
+      "roomSize": "15 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1721222201438-b59e2bbca679?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjM3fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "An elegant single room with a comfortable bed, modern decor, and a spacious bathroom. Features include free Wi-Fi, a flat-screen TV, and a work desk. Perfect for solo travelers seeking comfort and convenience.",
-        "pricePerNight": 115,
-        "roomSize": "21 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Bright and Airy Penthouse",
+      "description": "A luxury suite with a stunning ocean view, featuring a king-size bed, a separate living area, and a private terrace. The suite includes a Jacuzzi, a mini-bar, and a large bathroom with a rain shower. Guests enjoy VIP services and complimentary breakfast.",
+      "pricePerNight": 500,
+      "roomSize": "80 sqm",
+      "availability": false,
+      "images": [
+        "https://images.unsplash.com/photo-1646602655680-c45219eb039c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI1fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1660893334837-c9f2d1a41719?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ2fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D"
+      ]
     },
     {
-        "description": "A deluxe suite with a king-size bed, a separate living room, and a private balcony. Enjoy luxurious amenities, including a Jacuzzi, premium linens, and a stunning view of the ocean or cityscape.",
-        "pricePerNight": 380,
-        "roomSize": "55 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Traditional Japanese Room",
+      "description": "A cozy twin room with two single beds, perfect for friends or colleagues traveling together. The room includes a private bathroom, free Wi-Fi, and a flat-screen TV. Breakfast is available for an additional charge.",
+      "pricePerNight": 90,
+      "roomSize": "25 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1660214302296-0473a877c7d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1598227401254-23d3a282c8a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A modern double room featuring a comfortable bed, a sleek bathroom, and a work desk. Enjoy amenities like free Wi-Fi, a flat-screen TV, and a minibar. Ideal for both business and leisure stays.",
-        "pricePerNight": 140,
-        "roomSize": "28 sqm",
-        "availability": true,
-         "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Stylish Industrial Loft",
+      "description": "A cozy double room with modern amenities, perfect for couples. It features a comfortable bed, a spacious bathroom, and a beautiful city view. The room is equipped with free Wi-Fi, a flat-screen TV, and a minibar.",
+      "pricePerNight": 120,
+      "roomSize": "25 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A luxurious room with a king-size bed, a spacious living area, and a private balcony. The room offers stunning views, a Jacuzzi, and high-end amenities like premium toiletries and 24-hour room service.",
-        "pricePerNight": 410,
-        "roomSize": "60 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Secluded Lakehouse Retreat",
+      "description": "A luxurious suite offering a king-size bed, a living area, and a private balcony with stunning sea views. Enjoy a lavish stay with high-end amenities, including a jacuzzi, premium toiletries, and a Nespresso machine.",
+      "pricePerNight": 300,
+      "roomSize": "45 sqm",
+      "availability": false,
+      "images": [
+        "https://images.unsplash.com/photo-1592229506151-845940174bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1654064550772-9caf05e75cf0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1591552694788-3b74d181b46f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1675409145919-277c0fc2aa7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     },
     {
-        "description": "A cozy twin room with two single beds, ideal for friends or family. Features include a modern bathroom, free Wi-Fi, and a flat-screen TV. Enjoy a comfortable and convenient stay with all essential amenities.",
-        "pricePerNight": 155,
-        "roomSize": "30 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Refined Executive Suite",
+      "description": "A spacious twin room ideal for friends or colleagues. The room features two single beds, a work desk, and a large wardrobe. Guests can enjoy free high-speed Wi-Fi, a flat-screen TV, and complimentary breakfast.",
+      "pricePerNight": 150,
+      "roomSize": "30 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1722763529109-2bcb289a47c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1594560913095-8cf34bab82ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQxfHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D",
+        "https://images.unsplash.com/photo-1721222201438-b59e2bbca679?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjM3fHxob3RlbCUyMHJvb21zfGVufDB8MHwwfHx8Mg%3D%3D"
+      ]
     },
     {
-        "description": "A sophisticated suite with a king-size bed, separate living area, and a private terrace. Enjoy luxurious amenities, including a Jacuzzi, stunning city views, and personalized service.",
-        "pricePerNight": 360,
-        "roomSize": "50 sqm",
-        "availability": true,
-         "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A chic single room with modern furnishings and amenities. Features a comfortable bed, work desk, and a sleek bathroom. Enjoy free Wi-Fi, a flat-screen TV, and a coffee maker for a pleasant stay.",
-        "pricePerNight": 120,
-        "roomSize": "23 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A luxurious room with a king-size bed, a spacious living area, and a private balcony. Enjoy top-notch amenities, including a Jacuzzi, premium linens, and stunning views of the city or ocean.",
-        "pricePerNight": 370,
-        "roomSize": "58 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "An elegant double room with a queen-size bed, modern decor, and a spacious bathroom. The room includes free Wi-Fi, a flat-screen TV, and a minibar, offering a comfortable and stylish stay.",
-        "pricePerNight": 150,
-        "roomSize": "26 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A premium suite with a king-size bed, separate living area, and a private balcony. Enjoy luxurious amenities such as a Jacuzzi, stunning views, and personalized room service.",
-        "pricePerNight": 420,
-        "roomSize": "62 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A comfortable twin room featuring two single beds, a modern bathroom, and essential amenities. Enjoy free Wi-Fi, a flat-screen TV, and a minibar for a pleasant and convenient stay.",
-        "pricePerNight": 165,
-        "roomSize": "29 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A cozy single room with modern furnishings, perfect for solo travelers. Features include a comfortable bed, work desk, and a sleek bathroom. Enjoy free Wi-Fi, a flat-screen TV, and a coffee maker.",
-        "pricePerNight": 125,
-        "roomSize": "22 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A luxurious room with a king-size bed, a private balcony, and a spacious living area. Enjoy high-end amenities, including a Jacuzzi, stunning views, and personalized room service for an unforgettable stay.",
-        "pricePerNight": 390,
-        "roomSize": "57 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A deluxe suite featuring a king-size bed, a separate living area, and a private balcony. The suite offers luxurious amenities such as a Jacuzzi, stunning views, and premium linens.",
-        "pricePerNight": 420,
-        "roomSize": "60 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A stylish double room with modern decor, featuring a comfortable bed, work desk, and a sleek bathroom. Enjoy amenities like free Wi-Fi, a flat-screen TV, and a minibar for a pleasant stay.",
-        "pricePerNight": 145,
-        "roomSize": "28 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A charming twin room with two single beds, ideal for friends or family. The room includes modern furnishings, a sleek bathroom, free Wi-Fi, and a flat-screen TV for a comfortable stay.",
-        "pricePerNight": 160,
-        "roomSize": "30 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "An elegant suite with a king-size bed, a separate living area, and a private balcony. Enjoy luxurious amenities including a Jacuzzi, premium linens, and stunning views of the city or ocean.",
-        "pricePerNight": 430,
-        "roomSize": "63 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A modern single room designed for comfort and convenience. Features include a comfortable bed, work desk, and a sleek bathroom. Enjoy free Wi-Fi, a flat-screen TV, and complimentary tea and coffee.",
-        "pricePerNight": 130,
-        "roomSize": "23 sqm",
-        "availability": true,
-         "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A spacious family suite featuring two bedrooms, a living area, and a kitchenette. Ideal for families or groups, with modern amenities including free Wi-Fi, a flat-screen TV, and a large bathroom.",
-        "pricePerNight": 295,
-        "roomSize": "65 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A luxurious room with a king-size bed, a spacious living area, and a private balcony. Enjoy high-end amenities like a Jacuzzi, premium linens, and stunning views of the city or ocean.",
-        "pricePerNight": 380,
-        "roomSize": "56 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A contemporary double room featuring modern decor, a comfortable bed, and a sleek bathroom. The room includes free Wi-Fi, a flat-screen TV, and a minibar, perfect for a relaxing stay.",
-        "pricePerNight": 155,
-        "roomSize": "29 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A deluxe suite with a king-size bed, separate living area, and a private balcony. Enjoy luxurious amenities, including a Jacuzzi, stunning views, and premium service for an exceptional stay.",
-        "pricePerNight": 420,
-        "roomSize": "60 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A charming twin room with two single beds, ideal for friends or family. The room includes modern furnishings, a sleek bathroom, free Wi-Fi, and a flat-screen TV for a comfortable stay.",
-        "pricePerNight": 170,
-        "roomSize": "30 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A modern single room featuring a comfortable bed, a work desk, and a sleek bathroom. Enjoy amenities like free Wi-Fi, a flat-screen TV, and a coffee maker for a pleasant stay.",
-        "pricePerNight": 125,
-        "roomSize": "22 sqm",
-        "availability": true,
-       "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A spacious family suite with two bedrooms, a living area, and a kitchenette. Ideal for families or groups, with modern amenities like free Wi-Fi, a flat-screen TV, and a large bathroom.",
-        "pricePerNight": 305,
-        "roomSize": "70 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A luxurious suite featuring a king-size bed, separate living area, and a private balcony. Enjoy stunning views, high-end amenities including a Jacuzzi, and exceptional room service for a memorable stay.",
-        "pricePerNight": 430,
-        "roomSize": "65 sqm",
-        "availability": false,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
-    },
-    {
-        "description": "A modern double room with stylish decor, a comfortable bed, and a sleek bathroom. The room includes free Wi-Fi, a flat-screen TV, and a minibar. Perfect for both business and leisure travelers.",
-        "pricePerNight": 150,
-        "roomSize": "28 sqm",
-        "availability": true,
-        "images": "https://i.postimg.cc/pdjVkhZY/photo-1515362778563-6a8d0e44bc0b.jpg"
+      "title": "Trendy Loft with Balcony",
+      "description": "An elegant room with a queen-size bed, perfect for business travelers. The room offers a comfortable stay with a work desk, a mini-bar, and a beautiful city view. Amenities include free Wi-Fi, a flat-screen TV, and room service.",
+      "pricePerNight": 180,
+      "roomSize": "28 sqm",
+      "availability": true,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjByb29tc3xlbnwwfDB8MHx8fDI%3D",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwcm9vbXN8ZW58MHwwfDB8fHwy"
+      ]
     }
-]
+  ]
