@@ -9,7 +9,7 @@ const FeaturedRooms = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/allBookings")
+      .get("http://localhost:5000/allBookings", { withCredentials: true })
       .then((res) => setBookedRooms(res.data));
 
     axios.get("http://localhost:5000/rooms").then((res) => setRooms(res.data));
