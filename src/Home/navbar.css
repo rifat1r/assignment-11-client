@@ -3,3 +3,6 @@ nav a.active {
   color: red; /* Or any style to highlight the active link */
   text-decoration: underline;
 }
+nav a:hover {
+  text-decoration: underline;
+}

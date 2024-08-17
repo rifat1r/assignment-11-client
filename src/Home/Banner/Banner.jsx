@@ -12,10 +12,9 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="min-w-full relative">
-      <div className="bg-black w-full h-full"></div>
+    <div className="min-w-full relative my-6 rounded-xl">
       <video
-        className="max-h-[500px] min-w-full border object-cover rounded-lg"
+        className="max-h-[500px] min-w-full border object-cover rounded-xl"
         ref={videoRef}
         autoPlay
         loop

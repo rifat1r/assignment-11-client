@@ -3,6 +3,11 @@ import { Map, Overlay } from "pigeon-maps";
 const MyMap = () => {
   return (
     <div>
+      <div className="text-center my-4 mx-auto w-96">
+        <h2 className="text-4xl font-bold my-4">Our Location</h2>
+        <hr />
+        <hr />
+      </div>
       <Map height={300} defaultCenter={[23.8103, 90.4125]}>
         {/* <Marker
           width={50}
