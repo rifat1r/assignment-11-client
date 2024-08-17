@@ -1,9 +1,8 @@
-import { useContext } from "react";
-import { AuthContext } from "../../Provider/AuthProvider";
 import { Link } from "react-router-dom";
+import useAuth from "../../assets/hooks/useAuth";
 
 const Login = () => {
-  const { loginUser } = useContext(AuthContext);
+  const { loginUser, googleLogin } = useAuth();
   const handleLogin = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -18,6 +17,11 @@ const Login = () => {
       })
       .catch((error) => console.log(error.message));
     form.reset();
+  };
+  const handleGoogleLogin = () => {
+    googleLogin()
+      .then((res) => console.log(res))
+      .catch((error) => console.log(error));
   };
   return (
     <div className="hero bg-base-200 min-h-screen">
@@ -54,6 +58,9 @@ const Login = () => {
             <div className="form-control mt-6">
               <button className="btn btn-primary">Login</button>
             </div>
+            <button onClick={handleGoogleLogin} className="btn btn-secondary">
+              Login With Google
+            </button>
             <p className="text-center mt-3">
               New to this site?
               <Link className="text-blue-500 font-medium" to="/register">

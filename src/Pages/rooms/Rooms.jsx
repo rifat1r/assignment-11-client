@@ -46,15 +46,60 @@ const Rooms = () => {
       </div>
     );
   }
+  //filter
+  const handleFilter = (e) => {
+    e.preventDefault();
+    const min = parseInt(e.target.min.value);
+    const max = parseInt(e.target.max.value);
+    // console.log("min , max",  min, max);
+    axios
+      .get(`http://localhost:5000/api/rooms?min=${min}&max=${max}`)
+      .then((res) => {
+        setRooms(res.data);
+        console.log("filter works");
+      });
+    e.target.reset();
+  };
 
   return (
     <div>
+      <div className="dropdown dropdown-star my-5 w-full flex justify-end pr-9">
+        <div tabIndex={0} role="button" className="btn m-1">
+          Filter By Price
+        </div>
+        <div
+          tabIndex={0}
+          className="dropdown-content menu bg-base-100 rounded-box z-[1] w-96 p-2 shadow"
+        >
+          <form onSubmit={handleFilter} className="grid grid-cols-7 space-x-2">
+            <label className="input input-bordered flex items-center gap-2 col-span-3">
+              Minimum
+              <input
+                type="text"
+                className="grow"
+                placeholder="price"
+                name="min"
+              />
+            </label>
+            <label className="input input-bordered flex items-center gap-2  col-span-3">
+              Maximum
+              <input
+                type="text"
+                className="grow"
+                placeholder="price"
+                name="max"
+              />
+            </label>
+            <input type="submit" className="btn btn-secondary p-2" value="GO" />
+          </form>
+        </div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto">
         {rooms.map((room) => (
           <RoomCard room={room} key={room._id}></RoomCard>
         ))}
       </div>
-      <p>Current page: {currentPage}</p>
+      {/* <p>Current page: {currentPage}</p> */}
       {numberOfPages > 0 && (
         <div className="text-center">
           {pages.map((page) => (
