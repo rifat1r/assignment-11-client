@@ -39,7 +39,9 @@ const router = createBrowserRouter([
         path: "/room/:id",
         element: <RoomDetails></RoomDetails>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/room/${params.id}`),
+          fetch(
+            `https://assignment-11-server-tau-pied.vercel.app/room/${params.id}`
+          ),
       },
       {
         path: "/register",
@@ -55,7 +57,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <div className=" max-w-7xl mx-auto">
+  <div className="w-full md:max-w-7xl md:mx-auto">
     <React.StrictMode>
       <AuthProvider>
         <RouterProvider router={router} />

@@ -9,10 +9,14 @@ const FeaturedRooms = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/allBookings", { withCredentials: true })
+      .get("https://assignment-11-server-tau-pied.vercel.app/allBookings", {
+        withCredentials: true,
+      })
       .then((res) => setBookedRooms(res.data));
 
-    axios.get("http://localhost:5000/rooms").then((res) => setRooms(res.data));
+    axios
+      .get("https://assignment-11-server-tau-pied.vercel.app/rooms")
+      .then((res) => setRooms(res.data));
   }, []);
 
   const availableRooms = rooms
@@ -21,7 +25,7 @@ const FeaturedRooms = () => {
     })
     .slice(0, 10);
 
-  console.log(availableRooms, "heyy");
+  // console.log(availableRooms, "heyy");
   return (
     <div className="my-10">
       <h2 className="text-5xl font-semibold mb-4">Featured Rooms</h2>

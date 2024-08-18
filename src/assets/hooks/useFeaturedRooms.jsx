@@ -5,7 +5,9 @@ const useFeaturedRooms = (id) => {
   const [featuredRoom, setFeaturedRoom] = useState(null);
   useEffect(() => {
     axios
-      .post("http://localhost:5000/featuredId", { featuredRoomId: id })
+      .post("https://assignment-11-server-tau-pied.vercel.app/featuredId", {
+        featuredRoomId: id,
+      })
       .then((res) => setFeaturedRoom(res.data));
   }, [id]);
 };

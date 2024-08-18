@@ -5,7 +5,7 @@ const useReviews = (id) => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/reviews?id=${id}`)
+      .get(`https://assignment-11-server-tau-pied.vercel.app/reviews?id=${id}`)
       .then((res) => {
         setReviews(res.data);
         // console.log("review in room details", res.data);

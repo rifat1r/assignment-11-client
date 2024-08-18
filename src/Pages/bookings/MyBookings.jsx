@@ -3,24 +3,31 @@ import { AuthContext } from "../../Provider/AuthProvider";
 import BookingRow from "./BookingRow";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
+import Swal from "sweetalert2";
 
 const MyBookings = () => {
   const { user } = useContext(AuthContext);
   const [bookings, setBookings] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/bookings?email=${user?.email}`, {
-        withCredentials: true,
-      })
+      .get(
+        `https://assignment-11-server-tau-pied.vercel.app/bookings?email=${user?.email}`,
+        {
+          withCredentials: true,
+        }
+      )
       .then((res) => setBookings(res.data));
   }, [user.email]);
   const handleCancel = (id) => {
-    fetch(`http://localhost:5000/bookings/${id}`, {
+    fetch(`https://assignment-11-server-tau-pied.vercel.app/bookings/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
       .then((data) => {
-        toast.success("Booking Cancelled Successfully");
+        if (data.deletedCount > 0) {
+          toast.success("Booking Cancelled Successfully");
+        }
+
         console.log(data);
         const remaining = bookings.filter((booking) => booking._id !== id);
         setBookings(remaining);
@@ -29,7 +36,7 @@ const MyBookings = () => {
   const handleUpdateDate = (id, e) => {
     const updatedDate = e.target.value;
     console.log(updatedDate, id);
-    fetch(`http://localhost:5000/bookings/${id}`, {
+    fetch(`https://assignment-11-server-tau-pied.vercel.app/bookings/${id}`, {
       method: "PATCH",
       headers: {
         "content-type": "application/json",
@@ -40,9 +47,16 @@ const MyBookings = () => {
       .then((data) => {
         console.log(data);
         if (data.modifiedCount > 0) {
-          toast.success("Successfully Updated Check In");
+          Swal.fire({
+            title: "Success",
+            text: "Date Updated SUccessfully",
+            icon: "success",
+            position: "top-center",
+            showConfirmButton: false,
+            timer: 1500,
+          });
 
-          console.log("updated successfully");
+          // console.log("updated successfully");
           // Update the state without changing the order of the bookings
           const updatedBookings = bookings.map(
             (booking) =>

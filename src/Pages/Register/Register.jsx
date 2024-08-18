@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { updateProfile } from "firebase/auth";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const Register = () => {
   const { createUser } = useContext(AuthContext);
@@ -13,16 +14,23 @@ const Register = () => {
     const password = form.password.value;
     const name = form.name.value;
     const user = { name, photo, email, password };
-    console.log(user);
-    createUser(email, password)
-      .then((res) => {
-        console.log(res.user);
-        updateProfile(res.user, {
-          displayName: name,
-          photoURL: photo,
-        });
-      })
-      .catch((error) => console.log(error.message));
+    // console.log(user);
+    createUser(email, password).then((res) => {
+      // console.log(res.user);
+      updateProfile(res.user, {
+        displayName: name,
+        photoURL: photo,
+      });
+      Swal.fire({
+        position: "top-center",
+        timer: 1500,
+        title: "Success",
+        text: "Registered successfully",
+        showConfirmButton: false,
+        icon: "success",
+      });
+    });
+    // .catch((error) => console.log(error.message));
     form.reset();
   };
 

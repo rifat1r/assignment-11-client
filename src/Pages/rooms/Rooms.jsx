@@ -5,14 +5,16 @@ import axios from "axios";
 const Rooms = () => {
   const [rooms, setRooms] = useState([]);
   const [size, setSize] = useState(10);
-  const [countObj, setCountObj] = useState(null); // Initializing as null
+  const [countObj, setCountObj] = useState(null);
   const [currentPage, setCurrentPage] = useState(0);
   const [loading, setLoading] = useState(true); // Loading state
 
   useEffect(() => {
     const fetchRooms = async () => {
       // const roomsRes = await axios.get("http://localhost:5000/rooms");
-      const countRes = await axios.get("http://localhost:5000/roomsCount");
+      const countRes = await axios.get(
+        "https://assignment-11-server-tau-pied.vercel.app/roomsCount"
+      );
 
       // setRooms(roomsRes.data);
       setCountObj(countRes.data);
@@ -23,7 +25,9 @@ const Rooms = () => {
   }, []);
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/rooms?page=${currentPage}&size=${size}`)
+      .get(
+        `https://assignment-11-server-tau-pied.vercel.app/rooms?page=${currentPage}&size=${size}`
+      )
       .then((res) => {
         setRooms(res.data);
         console.log("its coming");
@@ -63,8 +67,8 @@ const Rooms = () => {
 
   return (
     <div>
-      <div className="dropdown dropdown-star my-5 w-full flex justify-end pr-9">
-        <div tabIndex={0} role="button" className="btn m-1">
+      <div className="dropdown dropdown-star my-5 w-full flex justify-end pr-2 md:pr-9">
+        <div tabIndex={0} role="button" className="btn m-1 btn-outline">
           Filter By Price
         </div>
         <div

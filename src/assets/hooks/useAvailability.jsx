@@ -7,7 +7,9 @@ const useAvailability = (id) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/allBookings", { withCredentials: true })
+      .get("https://assignment-11-server-tau-pied.vercel.app/allBookings", {
+        withCredentials: true,
+      })
       .then((res) => setBookedRooms(res.data));
   }, []);
   useEffect(() => {

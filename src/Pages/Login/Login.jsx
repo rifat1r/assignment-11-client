@@ -1,8 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import useAuth from "../../assets/hooks/useAuth";
+import Swal from "sweetalert2";
 
 const Login = () => {
   const { loginUser, googleLogin } = useAuth();
+  const location = useLocation();
+  const navigate = useNavigate();
   const handleLogin = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -10,18 +13,49 @@ const Login = () => {
     const password = form.password.value;
 
     const user = { email, password };
-    console.log(user);
+    // console.log(user);
     loginUser(email, password)
       .then((res) => {
-        console.log(res.user);
+        // console.log(res.user);
+        Swal.fire({
+          position: "top-center",
+          timer: 1500,
+          showConfirmButton: false,
+          title: "Success",
+          text: "Logged in successfully",
+          icon: "success",
+        });
+        if (res.user) {
+          navigate(location?.state ? location?.state : "/");
+        }
       })
       .catch((error) => console.log(error.message));
     form.reset();
   };
   const handleGoogleLogin = () => {
     googleLogin()
-      .then((res) => console.log(res))
-      .catch((error) => console.log(error));
+      .then((res) => {
+        // console.log(res);
+        Swal.fire({
+          position: "top-center",
+          timer: 1500,
+          showConfirmButton: false,
+          title: "Success",
+          text: "Logged in successfully",
+          icon: "success",
+        });
+        if (res.user) {
+          navigate(location?.state ? location?.state : "/");
+        }
+      })
+      .catch((error) => {
+        // console.log(error);
+        Swal.fire({
+          title: "error",
+          text: "Login failed",
+          icon: "error",
+        });
+      });
   };
   return (
     <div className="hero bg-base-200 min-h-screen">

@@ -27,7 +27,7 @@ const RoomDetails = () => {
     const checkOut = new Date(e.target.ckeckOut.value);
     const differenceInTime = checkOut.getTime() - checkIn.getTime();
     const differenceInDay = differenceInTime / (1000 * 60 * 60 * 24);
-    console.log("day difference", differenceInDay);
+    // console.log("day difference", differenceInDay);
     setDayDifference(differenceInDay);
   };
   const handleBook = (e) => {
@@ -55,7 +55,7 @@ const RoomDetails = () => {
       pricePerNight,
       roomId: _id,
     };
-    console.log(room);
+    // console.log(room);
     Swal.fire({
       title: "Are you sure?",
       html: `
@@ -82,7 +82,7 @@ const RoomDetails = () => {
       confirmButtonText: "Confirm Booking",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch("http://localhost:5000/bookings", {
+        fetch("https://assignment-11-server-tau-pied.vercel.app/bookings", {
           method: "POST",
           headers: {
             "content-type": "application/json",

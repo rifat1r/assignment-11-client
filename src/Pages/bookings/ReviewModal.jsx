@@ -20,14 +20,14 @@ const ReviewModal = ({ booking }) => {
     }
     const comment = e.target.review.value;
     const currentTime = new Date().toISOString();
-    console.log(
-      "review--->",
-      comment,
-      value,
-      user.email,
-      user.displayName,
-      currentTime
-    );
+    // console.log(
+    //   "review--->",
+    //   comment,
+    //   value,
+    //   user.email,
+    //   user.displayName,
+    //   currentTime
+    // );
     const review = {
       rating: value,
       comment,
@@ -38,10 +38,10 @@ const ReviewModal = ({ booking }) => {
       image: user.photoURL,
     };
     axios
-      .post("http://localhost:5000/reviews", review)
+      .post("https://assignment-11-server-tau-pied.vercel.app/reviews", review)
       .then((res) => {
         toast.success("Your Review Published Successfully");
-        console.log(res.data);
+        // console.log(res.data);
       })
       .catch((error) => console.log(error));
     e.target.reset();

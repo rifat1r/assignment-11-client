@@ -5,9 +5,9 @@ const useRoom = (id) => {
   const [room, setRoom] = useState("");
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/room/${id}`)
-      .then((res) => setRoom(res.data))
-      .catch((error) => console.log(error));
+      .get(`https://assignment-11-server-tau-pied.vercel.app/room/${id}`)
+      .then((res) => setRoom(res.data));
+    // .catch((error) => console.log(error));
   }, [id]);
   return room;
 };
