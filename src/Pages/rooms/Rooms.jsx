@@ -57,7 +57,9 @@ const Rooms = () => {
     const max = parseInt(e.target.max.value);
     // console.log("min , max",  min, max);
     axios
-      .get(`http://localhost:5000/api/rooms?min=${min}&max=${max}`)
+      .get(
+        `https://assignment-11-server-tau-pied.vercel.app/api/rooms?min=${min}&max=${max}`
+      )
       .then((res) => {
         setRooms(res.data);
         console.log("filter works");
@@ -66,7 +68,7 @@ const Rooms = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <div className="dropdown dropdown-star my-5 w-full flex justify-end pr-2 md:pr-9">
         <div tabIndex={0} role="button" className="btn m-1 btn-outline">
           Filter By Price

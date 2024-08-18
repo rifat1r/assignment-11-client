@@ -16,7 +16,7 @@ const RoomCard = ({ room }) => {
 
   return (
     <Link to={`/room/${_id}`}>
-      <div className="card bg-base-100 w-96 mx-auto  shadow-xl rounded-lg mb-8">
+      <div className="card bg-base-100 w-96 mx-auto  shadow-xl rounded-lg mb-8 ">
         <figure className="relative">
           <img
             className="max-w-xl h-72"
@@ -26,8 +26,12 @@ const RoomCard = ({ room }) => {
                 "https://images.unsplash.com/photo-1630404916223-9ffb5b5d51e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tJTIwd2l0aCUyMG5hdHVyZSUyMHZpZXd8ZW58MHwwfDB8fHwy";
             }}
           />
-          {user && (
+          {status === "Available" ? (
             <span className="absolute bg-green-400 text-white px-3 py-1 rounded-md top-3 left-3  ">
+              {status}
+            </span>
+          ) : (
+            <span className="absolute bg-red-500 text-white px-3 py-1 rounded-md top-3 left-3  ">
               {status}
             </span>
           )}

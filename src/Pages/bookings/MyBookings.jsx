@@ -72,13 +72,12 @@ const MyBookings = () => {
 
   return (
     <div className="overflow-x-auto">
-      <Toaster position="top-center" />
-      <table className="table">
+      <table className="table  ">
         {/* head */}
+        <Toaster position="top-center" />
         <thead>
           <tr className="bg-slate-200">
             <th>Room</th>
-
             <td>Check In</td>
             <th>Night</th>
             <th>Update Check-in</th>

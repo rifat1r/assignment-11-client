@@ -7,7 +7,7 @@ import NewsletterSignup from "./NewsletterSignup";
 
 const Home = () => {
   return (
-    <div>
+    <div className="mx-auto">
       <Banner></Banner>
       <FeaturedRooms></FeaturedRooms>
       <MyMap></MyMap>

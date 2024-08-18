@@ -148,9 +148,9 @@ const RoomDetails = () => {
           }}
         />
       </div>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         <div className="space-y-4  mr-10  pl-5">
-          <h2 className="text-4xl font-medium">About This Room</h2>
+          <h2 className="text-4xl font-medium">{title}</h2>
           <p>{description}</p>
           <hr />
           <div className="flex  border border-black p-3 justify-center md:w-full lg:w-3/5 ml-0 gap-5 rounded-lg text-lg">
